@@ -2,3 +2,5 @@ bin/
 PbPb2018
 run2018/*
 !run2018/*.py
+run2016/*
+!run2016/*.py
