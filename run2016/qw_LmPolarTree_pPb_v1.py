@@ -200,8 +200,8 @@ process.QWV0EventLambda = cms.EDProducer('QWV0VectProducer',
         ),
     cuts = cms.untracked.VPSet(
         cms.untracked.PSet(
-            Massmin = cms.untracked.double(1.1115),
-            Massmax = cms.untracked.double(1.1200),
+            Massmin = cms.untracked.double(1.08),
+            Massmax = cms.untracked.double(1.16),
             DecayXYZMin = cms.untracked.double(5.0),
             ThetaXYZMin = cms.untracked.double(0.999),
             ptMin = cms.untracked.double(0.2),
